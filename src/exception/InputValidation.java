@@ -16,7 +16,7 @@ public class InputValidation {
     // 나이 검증;0~130
     public void ageCheck(int age)throws MyException{
         if (age<0||age>130){
-            throw new MyException("나이는 ")
+            throw new MyException("나이는 ");
         }
     }
 
